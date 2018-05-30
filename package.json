@@ -1,0 +1,28 @@
+{
+  "name": "jfonvif",
+  "version": "1.0.0",
+  "description": "Try Integrating with local IP Camera",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianfrank/onvif.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianfrank/onvif/issues"
+  },
+  "homepage": "https://github.com/julianfrank/onvif#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "node-onvif": "^0.1.4",
+    "node-rtsp-stream": "0.0.3",
+    "rtsp-ffmpeg": "0.0.12",
+    "socket.io": "^2.1.1",
+    "websocket": "^1.0.26",
+    "yellowstone": "^2.1.0"
+  }
+}
